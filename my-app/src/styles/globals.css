@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  body { 
+      @apply bg-bgLight dark:bg-gradient-to-r from-bgDark to-bgDark2
+  }
+}
+
+body {
+  width: 100vw;
+  height: 100vh; 
+  font-family: 'Libre Franklin', sans-serif;
+  max-width: 1120px;
+  margin: 0 auto;
+
+}
