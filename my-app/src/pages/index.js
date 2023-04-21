@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Header from '../../components/Header/Header'
+import Bio from '../../components/Bio/Bio'
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
         <link rel="icon" href="/andrealogo.svg" />
       </Head>
     <Header/>
+    <Bio/>
     </>
   )
 }
