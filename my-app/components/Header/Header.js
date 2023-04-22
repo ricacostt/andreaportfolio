@@ -5,7 +5,9 @@ import ToggleButton from "../ToggleButton/ToggleButton";
 function Header() {
   return (
     <>
-    <div className="flex flex-row justify-center max-w-screen-3xl mx-auto pt-12 ms:pt-20 xsm:px-2  px-8 " style={{position:'sticky', top: '0px', zIndex: '999'}}>
+    <div className="flex flex-row justify-center max-w-screen-3xl mx-auto pt-12 ms:pt-20 xsm:px-2  px-8 "
+    //  style={{position:'sticky', top: '0px', zIndex: '999'}}
+     >
       <div className="logo flex-1" >
       
         <svg
