@@ -4,37 +4,26 @@ import { HiArrowRight } from "react-icons/hi";
 
 export default function WorksList() {
   return (
-    <div className="pt-16 ms:pt-32 xsm:px-2 px-8 ">
-      <h1 className="text-base xsm:text-xl font-medium text-textPrimaryLight dark:text-textPrimaryDark">
+    <div className="pt-16 ms:pt-32 xsm:px-2 px-8 pb-24">
+      <h1 className="text-base xsm:text-xl font-medium pb-8 text-textPrimaryLight dark:text-textPrimaryDark">
         Selected work
       </h1>
-      <div className="flex flex-row gap-32">
-        <Work
-          work={"Slack plugins - Web development"}
-          company={"tryroots.io"}
-        />
+      <div className="parent">
+        
 
-        {/* <div className="pt-8 text-base w-80 ">
-          <div className="text-textPrimaryLight dark:text-textPrimaryDark">
-            New HRIS console - Web application
-          </div>
-          <div className="text-textCompanyLight dark:text-textCompanyDark">
-            @ Deel
-          </div>
-          <div className="flex flex-row gap-1 text-textPrimaryLight dark:text-textPrimaryDark pt-2">
-            <div className="flex">Coming soon</div>
-          </div>
-        </div> */}
+          
+       <Work work={'Slack plugins - Web development'} company={'tryroots.io'} status={'Learn more'} link={''}/>
+       <Work work={'New HRIS console - Web application'} company={'Deel'} status={'Coming soon'} />
 
-        <Work
-          work={"Slack plugins - Web development"}
-          company={"tryroots.io"}
-        />
-         <Work
-          work={"Slack plugins - Web development"}
-          company={"tryroots.io"}
-        />
-     
+       <Work work={'New API Docs - Web application'} company={'Form3'} status={'Learn more'} link={''}/>
+       <Work work={'New Admin UI - Web application'} company={'From3'} status={'Learn more'} link={''}/>
+       <Work work={'New Brand guidelines - Brand identity'} company={'Deel'} status={'Learn more'} link={''}/>
+       <Work work={'New Grabyo components - Design Sysyem'} company={'Grabyo'} status={'Learn more'} link={''}/>
+
+       <Work work={'New Grabyo Editor - Web application'} company={'Grabyo'} status={'Learn more'} link={''}/>
+       <Work work={'New Grabyo web pages - Web development'} company={'Deel'} status={'Learn more'} link={''}/>
+       <Work work={'HiParkr - Mobile application'} company={'Client'} status={'Learn more'} link={''}/>
+
       </div>
     </div>
   );
