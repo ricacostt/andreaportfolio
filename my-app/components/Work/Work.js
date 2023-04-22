@@ -9,7 +9,7 @@ function Work({ work, company, status, link }) {
             {work}
           </div>
           <div className="company text-textCompanyLight dark:text-textCompanyDark">
-            {company}
+            @ {company}
           </div>
           <div className="flex flex-row gap-1 text-textPrimaryLight dark:text-textPrimaryDark pt-2">
             <div className="flex"> <a href={link} target="_blank"

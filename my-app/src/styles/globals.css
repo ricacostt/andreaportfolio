@@ -14,6 +14,8 @@ body {
   font-family: 'Libre Franklin', sans-serif;
   max-width: 1120px;
   margin: 0 auto;
+  overscroll-behavior: none;
+
 
 }
 
@@ -75,3 +77,6 @@ body {
       .div8 { grid-area: 8 / 1 / 9 / 2; }
       .div9 { grid-area: 9 / 1 / 10 / 2; }
   }
+
+
+ 

@@ -17,8 +17,8 @@ export default function WorksList() {
 
        <Work work={'New API Docs - Web application'} company={'Form3'} status={'Learn more'} link={''}/>
        <Work work={'New Admin UI - Web application'} company={'From3'} status={'Learn more'} link={''}/>
-       <Work work={'New Grabyo components - Design System'} company={'Grabyo'} status={'Learn more'} link={''}/>
-       <Work work={'Slack plugins - Web development'} company={'tryroots.io'} status={'Learn more'} link={''}/>
+       <Work work={'New Brand guidelines - Brand identity'} company={'Deel'} status={'Learn more'} link={''}/>
+       <Work work={'New Grabyo components - Design Sysyem'} company={'Grabyo'} status={'Learn more'} link={''}/>
 
        <Work work={'New Grabyo Editor - Web application'} company={'Grabyo'} status={'Learn more'} link={''}/>
        <Work work={'New Grabyo web pages - Web development'} company={'Deel'} status={'Learn more'} link={''}/>
