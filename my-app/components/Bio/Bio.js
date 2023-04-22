@@ -1,10 +1,11 @@
 import React from 'react'
 import Button from '../Button/Button'
+import Work from '../WorksList/WorksList'
 
 function Bio() {
   return (
     <>
-    <div className='flex flex-col justify-center max-w-screen-3xl ml-auto mr-auto pt-16 md:pt-32 xsm:pl-2 xsm:pr-2 pr-8 pl-8 gap-6'>
+    <div className='flex flex-col justify-center max-w-screen-3xl ml-auto mr-auto pt-16 md:pt-32 xsm:px-2 px-8 gap-6'>
         <div className='text-xl xsm:text-3xl text-textPrimaryLight dark:text-textPrimaryDark xsm:leading-normal leading-8'>
             👋🏻 Hi, I’m Andrea Lead and Mentor Product Designer currently working at Deel.
             
@@ -15,12 +16,13 @@ function Bio() {
             From <span className='underline'>Salento</span>, UK based.
         </div>
     </div>
-    <div className='flex flex-row flex-wrap gap-4 justify-start ml-auto mr-auto pt-12 xsm:pl-2 xsm:pr-2 pr-8 pl-8'>
+    <div className='flex flex-row flex-wrap gap-4 justify-start ml-auto mr-auto pt-12 xsm:px-2 px-8'>
         <Button href={''} text={'LINKEDIN'}/>
         <Button href={''} text={'BEHANCE'}/>
         <Button href={''} text={'RESUME'}/>
         <Button href={''} text={'CONTACT ME'}/>
     </div>
+    <Work/>
 </>
   )
 }
