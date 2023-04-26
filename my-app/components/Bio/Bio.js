@@ -9,7 +9,7 @@ function Bio() {
         <div className='text-xl xsm:text-3xl text-textPrimaryLight dark:text-textPrimaryDark xsm:leading-normal leading-8'>
             👋🏻 Hi, I’m Andrea Lead and Mentor Product Designer currently working at Deel.
             </div>
-            <div className='text-textSecondaryLight font-light dark:text-textSecondaryDark text-base xsm:text-xl'>Previously, founding designer at Form3, Leader designer at Grabyo. Also helped in creating internal tools for Facebook, Comcast, Twitter and many more.
+            <div className='text-textSecondaryLight font-light dark:text-textSecondaryDark text-base xsm:text-xl'>Previously, founding designer at Form3, Leader designer at Grabyo. Also helped in creating internal tools for Meta (ex Facebook), Comcast, Twitter and many more.
             </div>
             <div className='text-textSecondaryLight font-light dark:text-textSecondaryDark text-base xsm:text-xl xsm:leading-normal leading-8'>
             From <span className='underline'><a href="https://en.wikipedia.org/wiki/Salento" target="_blank" rel="noopener noreferrer">Salento</a></span>, UK based, working remotely.
