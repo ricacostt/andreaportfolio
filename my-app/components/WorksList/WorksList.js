@@ -10,6 +10,7 @@ export default function WorksList() {
       </h1>
       <div className="parent">
         
+       <Work work={'Performance Review'} link={'https://flair.hr/en/'} company={'flair.hr'} category={'Web application'} status={'Case study'} project={'https://www.figma.com/proto/0IoxnF9mY6aW9YBQtyWcEe/Flair---Performance-Review-Case-Study?page-id=0%3A1&type=design&node-id=28-1728&viewport=561%2C448%2C0.06&t=TxjhYmM2oFNsploM-1&scaling=scale-down-width&mode=design'}/>
        <Work work={'Slack plugins'} link={'https://www.deel.com/hr'} company={'tryroots.io'} category={'Web development'} status={'Case study'} project={'https://www.figma.com/proto/el4YFh8G7dWD8LRXKd9sJ7/SLACK-Plugins-%40-Roots?page-id=511%3A3428&node-id=511-3700&viewport=661%2C485%2C0.12&scaling=scale-down-width&starting-point-node-id=511%3A3700'}/>
        <Work work={'New HRIS console'} link={'https://www.deel.com/'} company={'Deel'} category={'Web application'} status={'Coming soon'} />
        <Work work={'New API Docs'} link={'https://www.form3.tech/'} company={'Form3'} category={'Web application'} status={'Case study'} project={'https://www.figma.com/proto/lnOGK42AUpcfpfanyOL1tM/API-Docs---Case-Study?page-id=0%3A1&node-id=214-31&viewport=654%2C546%2C0.03&scaling=min-zoom&starting-point-node-id=214%3A31'}/>
